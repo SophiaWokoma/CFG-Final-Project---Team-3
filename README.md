@@ -20,7 +20,7 @@ npx create-strapi-app@latest my-project
 When http://localhost:1337 is started, register first, then, go to the content manager and create a new table named “todo”, in this table, make sure you create “todo_item”, which is long text, and “done”, which is boolean. You can leave this table empty or you can add some data into it.
 After creating a table, go to settings, in USERS & PERMISSIONS PLUGIN, choose Roles, go to public then, set the permissions for todo, api address will be shown on the right side bar.
 
-When everytime need to start Strapi, use npm start.
+To start Strapi, use npm start.
 
 Download all the files in your local computer, use “npm i” to install React and dependencies.
 

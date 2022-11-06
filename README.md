@@ -1,6 +1,8 @@
 # CFG-Final-Project---Team-3
 
 This is the submission for the CFG Final Project
+Documentation Link: https://docs.google.com/document/d/1xNoEcV3Je1nqQ3EKt0GezloXnD6sOYrga8pv8VUV1Ko/edit?usp=sharing
+
 
 LAP-STOP
 
@@ -62,5 +64,3 @@ Users can navigate between months, years and return to the current date by selec
 
 Log-Out: 
 This can be found at the bottom-left of the sidebar and will redirect you to the homepage. 
-
-Documentation Link: https://docs.google.com/document/d/1xNoEcV3Je1nqQ3EKt0GezloXnD6sOYrga8pv8VUV1Ko/edit?usp=sharing

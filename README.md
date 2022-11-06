@@ -4,6 +4,8 @@ This is the submission for the CFG Final Project
 
 Documentation Link: https://docs.google.com/document/d/1xNoEcV3Je1nqQ3EKt0GezloXnD6sOYrga8pv8VUV1Ko/edit?usp=sharing
 
+Project Log Link: https://docs.google.com/spreadsheets/d/1kOGgeWSr_cwwJZ4Rhuie05YJ6eKV1elK/edit#gid=1041300742
+
 
 LAP-STOP
 

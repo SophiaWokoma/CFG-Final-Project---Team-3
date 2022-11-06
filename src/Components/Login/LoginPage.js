@@ -4,9 +4,9 @@ import LoginForm from "./LoginForm";
 import Dashboard from "../../Dashboard/Dashboard";
 
 
-// this function just handles the login logic, for the regular sign inn so checks the user input against our 'correct-details' which are 
+// this function just handles the login logic, for the regular sign in so checks the user input against our 'correct-details' which are 
 // in the adminUser object
-// if user input = details in object then the log in is successful. LoginForm.js contains the form inputs and buttons
+// if user input = details in object then the log in is successful. LoginForm.js contains the layout for the login form-inputs and buttons etc
 
 export default function LoginPage() {
   // object containing user details which we will check the user login details against

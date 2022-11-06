@@ -9,7 +9,7 @@ import Dashboard from "../../Dashboard/Dashboard";
 // if user input = details in object then the log in is successful. LoginForm.js contains the layout for the login form-inputs and buttons etc
 
 export default function LoginPage() {
-  // object containing user details which we will check the user login details against
+  // object containing user details which we will check the user input against
   const adminUser = {
     email: "admin@admin.com",
     password: "admin123",

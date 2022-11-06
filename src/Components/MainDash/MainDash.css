@@ -1,0 +1,38 @@
+.MainDash {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  gap: 40px;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0px 72px 0px 72px;
+}
+
+.MainDash h1,
+.MainDash h2 {
+  color: #413d45;
+}
+.MainDash h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+  color: #413d45;
+}
+.MainDash h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #413d45;
+}
+@media screen and (max-width: 1200px) {
+  .MainDash {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .MainDash {
+    align-items: center;
+  }
+}

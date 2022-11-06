@@ -1,0 +1,30 @@
+.Dashboard {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(250, 246, 244, 1);
+  align-items: center;
+  overflow-y: scroll;
+  font-family: "Poppins", sans-serif;
+}
+.Dashboard-Glass {
+  display: grid;
+  height: 97%;
+  width: 97%;
+  background-color: rgba(250, 246, 244, 1);
+  /* overflow-y: scroll; */
+  grid-template-columns: 15rem auto 25rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .Dashboard-Glass {
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AppGlass {
+    grid-template-columns: 1fr;
+  }
+}

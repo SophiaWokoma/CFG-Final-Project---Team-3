@@ -1,0 +1,78 @@
+.homefooter {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  top: 1400px;
+  height: 200px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-logo {
+  position: absolute;
+  height: 10vmin;
+  left: 60px;
+  top: 9px;
+}
+
+.upper_footer {
+  position: absolute;
+  left: 50px;
+  width: 100%;
+  top: 15px;
+}
+
+.box_1 {
+  position: absolute;
+  left: 330px;
+  width: 200px;
+}
+
+.box_2 {
+  position: absolute;
+  left: 550px;
+  width: 200px;
+}
+
+.box_3 {
+  position: absolute;
+  left: 775px;
+  width: 200px;
+}
+
+.box_4 {
+  position: absolute;
+  left: 990px;
+  width: 200px;
+}
+
+.solid_line2 {
+  position: absolute;
+  border-top: 3px solid #c2c2c2;
+  width: 100%;
+  top: 100px;
+}
+
+.lower_footer {
+  position: absolute;
+  left: 50px;
+  top: 110px;
+  width: 100%;
+}
+
+.language {
+  position: absolute;
+  left: 50px;
+  padding: 20px;
+}
+
+.terms {
+  position: absolute;
+  left: 560px;
+  padding: 20px;
+}
+
+.lapstop {
+  position: absolute;
+  left: 1100px;
+  padding: 20px;
+}

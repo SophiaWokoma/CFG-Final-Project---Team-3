@@ -1,0 +1,32 @@
+.RightSide {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  justify-content: space-between;
+  gap: 40px;
+  padding-left: 30px;
+}
+.RightSide h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #413d45;
+}
+@media screen and (max-width: 1200px) {
+  .RightSide {
+    justify-content: flex-start;
+    /* margin-top: 3rem; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .RightSide {
+    width: 100%;
+    margin-top: 0;
+  }
+  .RightSide > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

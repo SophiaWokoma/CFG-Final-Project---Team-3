@@ -1,0 +1,118 @@
+.timer-main {
+  width: 100%;
+  display: grid;
+  /* grid-template-rows: 1fr 2fr 1fr; */
+  gap: 48px;
+}
+.text-container {
+  margin-bottom: 24px;
+}
+.timer {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f08686;
+}
+.text-container p {
+  color: rgba(194, 194, 194, 1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+}
+.container-timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-container {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+#pomo {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #f08686;
+  background-color: rgba(240, 134, 134, 0.5);
+  /* border: 2px #f0868683; */
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* margin: 1rem; */
+  /* user-select: none; */
+  cursor: pointer;
+  padding: 8px 16px;
+}
+#pomo:is(:hover, .active) {
+  color: #fff;
+  background: rgba(240, 134, 134, 0.5);
+}
+
+#break {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #9b9a9a;
+  background-color: #d6d1d1;
+  /* border: 2px #c2c2c2; */
+  border-radius: 8px;
+  border: none;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* user-select: none; */
+  cursor: pointer;
+  padding: 8px 16px;
+}
+#break:is(:hover, .active) {
+  background: rgba(194, 194, 194, 0.25);
+  color: #9b9a9a;
+}
+#pause {
+  background: #f08686;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  border: none;
+  padding: 16px 64px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#pause:is(:hover, .active) {
+  color: #fff;
+  background: rgba(240, 134, 134, 0.5);
+}
+.container-stop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p {
+  text-align: left;
+}
+
+.firstSpan {
+  color: #c2c2c2;
+}
+
+.firstSpan .secondSpan {
+  visibility: hidden;
+  width: 120px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.firstSpan:hover .secondSpan {
+  visibility: visible;
+}

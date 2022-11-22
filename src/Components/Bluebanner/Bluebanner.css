@@ -1,0 +1,89 @@
+.bluebanner {
+  position: absolute;
+  background-image: linear-gradient(
+    to right top,
+    #003778,
+    #064491,
+    #0f52ab,
+    #1960c6,
+    #236ee1
+  );
+  top: 1000px;
+  width: 100%;
+  height: 60%;
+}
+
+.bluebanner-heading {
+  padding-top: 80px;
+  padding-left: 90px;
+  font-size: 35px;
+  float: left;
+  width: 50%;
+  color: white;
+}
+
+.bluebanner-heading {
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+}
+
+@keyframes mymove {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+.bluebanner-para {
+  padding-top: 40px;
+  padding-left: 90px;
+  font-family: "Poppins", sans-serif;
+
+  /* float: left; */
+  width: 41%;
+  color: white;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+
+  color: #ffffff;
+}
+
+.contactform {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  height: 14%;
+  width: 40%;
+  color: #ffffff;
+  background-color: rgb(238, 182, 11);
+  color: rgb(255, 239, 239);
+  border-radius: 10px;
+  border-style: groove;
+  border-color: rgb(238, 182, 11);
+}
+
+.bluebanner label[id="name-label"] {
+  padding: 10px;
+}
+
+.bluebanner input[id="name"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bluebanner input[id="email"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.bluebanner label[id="email-label"] {
+  padding: 10px;
+}
